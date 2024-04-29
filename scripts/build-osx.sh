@@ -125,7 +125,7 @@ $QMAKE_CMD $QMAKE_OPTS -r
 
 #to make it auto, use "make -j"
 #hardcoded to 4 jobs, because "make -j" crashes our mac building box
-make -j
+make -j6
 
 APP_FILE=LibreCAD
 OUTPUT_DMG=${APP_FILE}.dmg
